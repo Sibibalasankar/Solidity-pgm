@@ -2,8 +2,8 @@
 pragma solidity ^0.8.20;
 
 contract mini_project {
-    address public owner;
-    address public new_owner;
+    address  owner;
+    address  Cust_add;
     uint256 public amount;
 
     string public message = "Welcome";
@@ -38,7 +38,7 @@ contract mini_project {
     Status status;
     event Status_set(string mymsg);
 
-    function get_status() public view returns (Status) {
+    function get_status() private view returns (Status) {
        
             return status;
 
@@ -75,7 +75,7 @@ contract mini_project {
 
     function Owner_ship(address new_add) public only_owner balance_checker {
         if (amount >= 1 ether) {
-            new_owner = new_add;
+            Cust_add = new_add;
             status = Status.Pending;
             message = "Order Has Been Placed Successfully";
         }

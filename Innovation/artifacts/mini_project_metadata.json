@@ -58,51 +58,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "get_status",
-				"outputs": [
-					{
-						"internalType": "enum mini_project.Status",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "message",
 				"outputs": [
 					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "new_owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -169,11 +130,11 @@
 	},
 	"sources": {
 		"Innovation/MiniProject.sol": {
-			"keccak256": "0xfcecc24956c8bb705f0fccb788b124c8add37b453fb6d05f108bb6dcaf3f8a46",
+			"keccak256": "0x85f0bf9593f8ab32b4ebdebff07d47de09bdded189e7aca24e140eacc69edada",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://116683cd8bae991672057c11209674c2c51545db37ba60794416cdcc1408fc36",
-				"dweb:/ipfs/QmR8G8z9JvbF9ZMhuuUGv6KVNJaAnR4Jfktwe66DpnP99j"
+				"bzz-raw://dee500476f0c2a59d2f898bc0afa56b415e76388e5fb8935dbed809a5f080e01",
+				"dweb:/ipfs/QmXTu5Vr1kqx98ZDB3xgxWmgy4PNMwpwQwkCnP1A4inj7z"
 			]
 		}
 	},
