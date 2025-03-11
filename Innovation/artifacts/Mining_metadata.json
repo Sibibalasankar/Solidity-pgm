@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Innovation/Tasks.sol": "Mining"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Innovation/Tasks.sol": {
+			"keccak256": "0x40b2c227bf4bce33ee555123a0cafd78c062edc32c4319091bef87d345cdf5e3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5544bec7e25cf3d958492d4b4f6ea9deb4d7775a73809955c95616a1daa57c4e",
+				"dweb:/ipfs/QmWzz3A1vUCsjyVPbEqyrnK9C3TRQmjqGYVEq25rcnNdRq"
+			]
+		}
+	},
+	"version": 1
+}

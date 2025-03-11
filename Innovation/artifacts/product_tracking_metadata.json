@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get_owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_status",
+				"outputs": [
+					{
+						"internalType": "enum product_tracking.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum product_tracking.Status",
+						"name": "x",
+						"type": "uint8"
+					}
+				],
+				"name": "set_Status",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Innovation/Tasks.sol": "product_tracking"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Innovation/Tasks.sol": {
+			"keccak256": "0x1ccb9b9270e405bedd14e5b72d02c99c20f041fb97de9a8ec69928f1629dd127",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://89f8ca1824b0578487ddc579133ca98b6b35a2e799b845ca1d1c539e1970aa71",
+				"dweb:/ipfs/QmcZEEMZZXRAnwGhntdn2QVfXQBzkeA4HrLBM8G7rPsRQ9"
+			]
+		}
+	},
+	"version": 1
+}
