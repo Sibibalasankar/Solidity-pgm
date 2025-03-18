@@ -2,8 +2,8 @@
 pragma solidity ^0.8.20;
 
 contract mini_project {
-    address  owner;
-    address  Cust_add;
+    address public  owner;
+    address public  Cust_add;
     uint256 public amount;
 
     string public message = "Welcome";
