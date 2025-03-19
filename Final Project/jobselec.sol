@@ -62,8 +62,10 @@ contract JobSelection {
         return candidates[_id].statusUpdates[_category];
     }
     
-    
-    
+   function authorizeAuthority(address _authority) public onlyAdmin {
+    authorizedAuthorities[_authority] = true;
+}
+
     function removeAuthority(address _authority) public onlyAdmin {
         authorizedAuthorities[_authority] = false;
     }

@@ -77,6 +77,19 @@
 				"inputs": [
 					{
 						"internalType": "address",
+						"name": "_authority",
+						"type": "address"
+					}
+				],
+				"name": "authorizeAuthority",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
@@ -295,11 +308,11 @@
 	},
 	"sources": {
 		"Final Project/jobselec.sol": {
-			"keccak256": "0xb5206438a40eb4e6a8c028ee34510fdc37720ec957068d1532bb00bec2c79173",
+			"keccak256": "0x9921800a758affcf4d97aaa9d9a0075c962193e958e7e96aff78113aad2a7c2f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6d06a6f9fb4817781955ab6b2891b24c8a7dbcf70a2a0889eb741c182a504bf0",
-				"dweb:/ipfs/QmR9564tg95N71Gp1M8JgRke9Z7yjgfV9SYpPptTA4HBBV"
+				"bzz-raw://14c5b72e64087c0405dc199456e5ba64127f618a06c4c04cb2f4e2496fa954fd",
+				"dweb:/ipfs/QmZxM96XGKkS5dakwaJkn64YmYB77efdQ4Gx2GJdSHBjdR"
 			]
 		}
 	},
